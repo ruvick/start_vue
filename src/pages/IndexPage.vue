@@ -1,5 +1,5 @@
 <script setup>
-
+	import MyButton from "@/components/UI/MyButton.vue";
 </script>
 
 <template>
@@ -10,6 +10,10 @@
 			<div class="__container">
 
 				<h1 class="page__title title">Title</h1>
+
+				<my-button>Создать</my-button>
+
+				<my-button>Очистить</my-button>
 
 			</div>
 		</section>
