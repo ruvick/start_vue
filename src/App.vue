@@ -1,3 +1,11 @@
+<template>
+
+	<Header/>
+	<IndexPage/>
+	<Footer/>
+
+</template>
+
 <script setup>
 
 	import Header from '@/components/Header.vue'
@@ -10,14 +18,6 @@
 // });
 
 </script>
-
-<template>
-
-	<Header/>
-	<IndexPage/>
-	<Footer/>
-
-</template>
 
 <style lang="scss">
 

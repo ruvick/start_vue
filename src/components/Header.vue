@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
 
 	<header class="header">
@@ -13,6 +9,10 @@
 	</header>
 
 </template>
+
+<script setup>
+
+</script>
 
 <style lang="scss" scoped>
 

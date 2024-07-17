@@ -1,7 +1,3 @@
-<script setup>
-	import MyButton from "@/components/UI/MyButton.vue";
-</script>
-
 <template>
 
 	<main class="page">
@@ -21,6 +17,11 @@
 	</main>
 
 </template>
+
+<script setup>
+	
+</script>
+
 
 <style lang="scss" scoped>
 

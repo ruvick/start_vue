@@ -4,9 +4,13 @@
 		<slot></slot>
 	</button>
 	
-</template>
+</template> 
 
-<script setup>
+<script>
+
+	export default {
+		name: 'my-button'
+	}
 
 </script>
 
