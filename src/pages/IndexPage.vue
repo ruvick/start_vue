@@ -11,6 +11,8 @@
 
 				<my-button>Очистить</my-button>
 
+				<my-input type="text" placeholder="Описание" />
+
 			</div>
 		</section>
 
