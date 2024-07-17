@@ -11,7 +11,11 @@
 
 				<my-button>Очистить</my-button>
 
+				<my-button @click="showDialog">Открыть окно</my-button>
+
 				<my-input type="text" placeholder="Описание" />
+
+				<my-dialog v-model:show="dialogVisible">Модальное окно</my-dialog>
 
 			</div>
 		</section>
@@ -20,7 +24,23 @@
 
 </template>
 
-<script setup>
+<script>
+
+	export default {
+		components: {
+
+		},
+		data() {
+			return {
+				dialogVisible: false,
+			}
+		},
+		methods: {
+			showDialog() {
+				this.dialogVisible = true;
+			},
+		}
+	}
 	
 </script>
 
