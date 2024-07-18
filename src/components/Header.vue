@@ -3,14 +3,25 @@
 	<header class="header">
 		<div class="header__wrapper">
 			<div class="header__container _container">
-				Header
+				<div class="header__main">
+					<div @click="$router.push('/')" class="header__logo">Logo</div>
+					<Navbar/>
+				</div>
 			</div>
 		</div>
 	</header>
 
 </template>
 
-<script setup>
+<script>
+
+	import Navbar from '@/components/Navbar.vue';
+
+export default {
+	components: {
+		Navbar,
+	}
+}
 
 </script>
 
@@ -49,6 +60,16 @@
 		left: auto;
 		right: 3.3px;
 	}
+}
+.header__main {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+}
+.header__logo {
+	cursor: pointer;
 }
 //====================================================================================================
 

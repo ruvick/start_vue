@@ -20,7 +20,7 @@
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		padding: 15px 23px;
+		padding: 8px 13px;
 		font-size: 16px;
 		font-weight: 500;
 		color: #fff;
@@ -38,4 +38,14 @@
 			width: 100%;
 		}
 	}
+	.link {
+		color: #000;
+		padding: 0;
+		background-color: inherit;
+	}
+	@media (any-hover: hover) {
+		.link:hover {
+			background-color: inherit;
+			}
+		}
 </style>
