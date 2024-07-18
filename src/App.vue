@@ -1,34 +1,13 @@
 <template>
-
-	<Header/>
-	<IndexPage/>
-	<Footer/>
-
+	<router-view></router-view>
 </template>
 
 <script>
+export default {
 
-	import Header from '@/components/Header.vue'
-	import IndexPage from '@/pages/IndexPage.vue';
-	import Footer from '@/components/Footer.vue'
-
-	export default {
-		components: {
-			Header,
-			IndexPage,
-			Footer,
-		},
-			data() {
-			return {
-
-			}
-		},
-	}
-
-
+}
 </script>
 
-<style lang="scss">
+<style>
 
 </style>
-
