@@ -1,3 +1,7 @@
+<script setup>
+	import UserPage from './UserPage';
+</script>
+
 <template>
 
 	<main class="page">
@@ -12,19 +16,14 @@
 					<router-link to="/about">О нас</router-link>
 				</div>
 
+				<UserPage/>
+
 			</div>
 		</section>
 
 	</main>
 
 </template>
-
-<script>
-
-	export default {
-	}
-	
-</script>
 
 
 <style lang="scss" scoped>

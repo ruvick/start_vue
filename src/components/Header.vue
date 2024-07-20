@@ -4,7 +4,9 @@
 		<div class="header__wrapper">
 			<div class="header__container _container">
 				<div class="header__main">
-					<div @click="$router.push('/')" class="header__logo">Logo</div>
+					<div @click="$router.push('/')" class="header__logo logo">
+						<img src="logo.svg" loading="lazy" alt="Картинка">
+					</div>
 					<Navbar/>
 				</div>
 			</div>
@@ -30,8 +32,9 @@ export default {
 .header {
 	position: relative;
 	z-index: 50;
-	padding: 10px 0;
+	padding: 15px 0;
 	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
 	// @media (min-width: 1025px) {
 	// 	transform: translateY(0);

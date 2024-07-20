@@ -20,7 +20,10 @@
 	.navbar {
 		display: flex;
 		align-items: center;
-		gap: 10px;
+		gap: 23px;
 		flex-wrap: wrap;
+		.link {
+			font-weight: 500;
+		}
 	}
 </style>
